@@ -101,7 +101,7 @@ ignore:
 theme: cactus
 theme_config:
   # Color scheme
-  colorscheme: white
+  colorscheme: dark
 
   # Navigation
   nav:
