@@ -130,6 +130,7 @@ theme_config:
   nav:
     home: /
     articles: /archives/
+    skill: /skill/
     tag: /tags/
     category: /categories/
     search: /search/

@@ -8,8 +8,16 @@
         "detail": "JavaScript/Java/C/C++"
     },
     {
+        "category": "通讯协议",
+        "detail": "http/websocket"
+    },
+    {
         "category": "前端",
         "detail": "HTML/CSS/JavaScript/Vue/React/uniapp/微信小程序/Electron/NodeJS/Webpack"
+    },
+    {
+        "category": "其他客户端相关",
+        "detail": "Cocos/安卓原生"
     },
     {
         "category": "UI工具及框架",
@@ -20,11 +28,19 @@
         "detail": "DataV/Echarts/HeightCharts/three.js/openlayers"
     },
     {
+        "category": "服务端相关",
+        "detail": "NodeJs/Express/NextJS"
+    },
+    {
+        "category": "数据库",
+        "detail": "mongoDB/mysql"
+    },
+    {
         "category": "Devops",
         "detail": "Git/Github/Gitee/Gitlab/npm/Docker/Jenkins/Vercel/Netlify/Deno/Nginx"
     },
     {
         "category": "音视频相关",
-        "detail": "H264/Webrtc/JMuxer/Web Assembly"
+        "detail": "H264/ffmpeg/Webrtc/JMuxer/Web Assembly"
     }
 ]

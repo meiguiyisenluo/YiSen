@@ -32,13 +32,13 @@
   <% } %>
 </section>
 
-<% if (site.data.skills) { %>
+<% if (false && site.data.skills) { %>
   <section id="skills">
     <span class="h1"><a href="javascript:0;"><%= __('index.skills') %></a></span>
     <ul class="skills-list">
       <% for(var obj in site.data.skills){ %>
         <li class="skills-item">
-          <%= site.data.skills[obj].category %>: <%- markdown(site.data.skills[obj].detail) %>
+          <p style="height: 100%;"><%= site.data.skills[obj].category %></p>:   <%- markdown(site.data.skills[obj].detail) %>
         </li>
       <% } %>
     </ul>
