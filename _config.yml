@@ -145,12 +145,12 @@ theme_config:
       label: 1402175410@qq.com
       link: mailto:1402175410@qq.com
     -
-      icon: mastodon
+      icon: gitter
       label: gitee
       link: https://gitee.com/luoyisen
     -
-      icon: mastodon
-      label: 掘金
+      icon: teamspeak
+      label: xitujuejin
       link: https://juejin.cn/user/2322582188592296
 
   # Copyright years
