@@ -1,18 +1,30 @@
 [
     {
+        "category": "计算机相关",
+        "detail": "数据结构与算法/设计模式/网络基础"
+    },
+    {
         "category": "编程语言",
         "detail": "JavaScript/Java/C/C++"
     },
     {
         "category": "前端",
-        "detail": "HTML/CSS/JavaScript/Vue/React/uniapp/微信小程序"
+        "detail": "HTML/CSS/JavaScript/Vue/React/uniapp/微信小程序/Electron/NodeJS/Webpack"
     },
     {
-        "category": "UI框架",
-        "detail": "elementUI/AntDesign"
+        "category": "UI工具及框架",
+        "detail": "Photoshop/蓝湖/Figma/elementUI/AntDesign/Vant"
     },
     {
         "category": "数据可视化",
         "detail": "DataV/Echarts/HeightCharts/three.js/openlayers"
+    },
+    {
+        "category": "Devops",
+        "detail": "Git/Github/Gitee/Gitlab/npm/Docker/Jenkins/Vercel/Netlify/Deno/Nginx"
+    },
+    {
+        "category": "音视频相关",
+        "detail": "H264/Webrtc/JMuxer/Web Assembly"
     }
 ]
