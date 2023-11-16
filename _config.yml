@@ -107,8 +107,8 @@ theme_config:
   nav:
     home: /
     articles: /archives/
-    # tag: /tags/
-    # category: /categories/
+    tag: /tags/
+    category: /categories/
     # projects: /projects/
     search: /search/
 

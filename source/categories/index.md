@@ -1,4 +1,4 @@
 ---
 title: categories
-date: 2023-11-15 17:05:16
+type: categories
 ---

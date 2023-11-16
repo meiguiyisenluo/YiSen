@@ -1,7 +1,12 @@
 ---
 title: 经验总结：开发中利用csrf解决的问题
 date: 2023-10-15 21:12:43
-tags:
+tags: 
+- csrf
+- cookie
+- nginx
+categories:
+- 经验分享
 ---
 
   上次刚说了csrf，并实现了个小案例去展示csrf的攻击流程。[用代码来看懂CSRF，再也不怕面试题记不住啦 - 掘金 (juejin.cn)](https://juejin.cn/post/7279056679562756096)
