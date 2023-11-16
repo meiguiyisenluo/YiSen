@@ -5,13 +5,9 @@
 # Site
 title: YiSen's Blog
 subtitle: "YiSen's Blog"
-description: "I'm YiSen. I'm a web engineer. 
-\n 
-\n Email: 1402175410@qq.com  Tel: 15914203799
-\n
-\n Find me on
-\n gitee: https://gitee.com/luoyisen
-\n 掘金: https://juejin.cn/user/2322582188592296"
+description: "I'm YiSen. Being engaged in web development since 2020.6 .
+\n  
+\n Tel: 15914203799"
 keywords: YiSen's Blog
 author: YiSen
 language: en
@@ -106,11 +102,26 @@ ignore:
 # theme: landscape
 theme: cactus
 theme_config:
+  projects_url: /projects/
+
   # Color scheme
   colorscheme: dark
 
   # Code Highlighting
   highlight: rainbow
+
+  # Customize the overview with displaying a tagcloud on the index page.
+  tags_overview: false
+
+  # Customize the overview with the most recent blog posts on the index page.
+  # Options:
+  #   - show_all_posts: whether to show all available posts.
+  #   - post_count: whether to show only the x most recent posts.
+  #   - sort_updated: sort posts by last modification date instead of creation date.
+  posts_overview:
+    show_all_posts: false
+    post_count: 5
+    sort_updated: false
 
   # Navigation
   nav:
@@ -118,31 +129,37 @@ theme_config:
     articles: /archives/
     tag: /tags/
     category: /categories/
-    # projects: /projects/
+    projects: /projects/
     search: /search/
-
-  # Blog posts list on home page
-  posts_overview:
-    show_all_posts: false
-    post_count: 5
 
   # Social media links
   social_links:
-    - icon: github
+    - 
+      icon: github
       link: https://github.com/meiguiyisenluo
-    # - icon: gitee
-    #   link: https://gitee.com/luoyisen
-    - icon: twitter
+    - 
+      icon: twitter
       link: https://twitter.com/javascript67335
+    -
+      icon: mail
+      label: 1402175410@qq.com
+      link: mailto:1402175410@qq.com
+    -
+      icon: mastodon
+      label: gitee
+      link: https://gitee.com/luoyisen
+    -
+      icon: mastodon
+      label: 掘金
+      link: https://juejin.cn/user/2322582188592296
 
   # Copyright years
   copyright:
-    start_year: 2023
+    start_year: 2016
     end_year: 2023
 
-  # CDN
-  cdn:
-    enable: true
+  # Maximal width of the page in rem units.
+  page_width: 60
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
