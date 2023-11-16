@@ -5,7 +5,13 @@
 # Site
 title: YiSen's Blog
 subtitle: "YiSen's Blog"
-description: "I'm YiSen. I'm a web engineer. QQ: 1402175410, WeChat: 15914203799"
+description: "I'm YiSen. I'm a web engineer. 
+\n 
+\n Email: 1402175410@qq.com  Tel: 15914203799
+\n
+\n Find me on
+\n gitee: https://gitee.com/luoyisen
+\n 掘金: https://juejin.cn/user/2322582188592296"
 keywords: YiSen's Blog
 author: YiSen
 language: en
@@ -103,6 +109,9 @@ theme_config:
   # Color scheme
   colorscheme: dark
 
+  # Code Highlighting
+  highlight: rainbow
+
   # Navigation
   nav:
     home: /
@@ -123,6 +132,8 @@ theme_config:
       link: https://github.com/meiguiyisenluo
     # - icon: gitee
     #   link: https://gitee.com/luoyisen
+    - icon: twitter
+      link: https://twitter.com/javascript67335
 
   # Copyright years
   copyright:
