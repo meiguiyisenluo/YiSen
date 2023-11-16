@@ -1,0 +1,18 @@
+[
+    {
+        "category": "编程语言",
+        "detail": "JavaScript/Java/C/C++"
+    },
+    {
+        "category": "前端",
+        "detail": "HTML/CSS/JavaScript/Vue/React/uniapp/微信小程序"
+    },
+    {
+        "category": "UI框架",
+        "detail": "elementUI/AntDesign"
+    },
+    {
+        "category": "数据可视化",
+        "detail": "DataV/Echarts/HeightCharts/three.js/openlayers"
+    }
+]

@@ -32,6 +32,19 @@
   <% } %>
 </section>
 
+<% if (site.data.skills) { %>
+  <section id="skills">
+    <span class="h1"><a href="javascript:0;"><%= __('index.skills') %></a></span>
+    <ul class="skills-list">
+      <% for(var obj in site.data.skills){ %>
+        <li class="skills-item">
+          <%= site.data.skills[obj].category %>: <%- markdown(site.data.skills[obj].detail) %>
+        </li>
+      <% } %>
+    </ul>
+  </section>
+  <% } %>
+
 <section id="writing">
   <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
@@ -60,7 +73,7 @@
   <% } %>
 </section>
 
-<% if (site.data.projects) { %>
+<% if (false && site.data.projects) { %>
 <section id="projects">
   <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
   <ul class="project-list">
