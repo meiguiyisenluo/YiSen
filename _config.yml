@@ -140,25 +140,21 @@ theme_config:
     - 
       icon: github
       link: https://github.com/meiguiyisenluo
-    -
-      icon: g
-      label: gitee
-      link: https://gitee.com/luoyisen
     - 
       icon: twitter
       link: https://twitter.com/javascript67335
-    -
-      icon: teamspeak
-      label: xitujuejin
-      link: https://juejin.cn/user/2322582188592296
     -
       icon: mail
       label: 1402175410@qq.com
       link: mailto:1402175410@qq.com
     -
-      icon: qq
-      label: QQ
-      link: tencent://message/?uin=1402175410&Site=&Menu=yes
+      icon: gitter
+      label: gitee
+      link: https://gitee.com/luoyisen
+    -
+      icon: teamspeak
+      label: xitujuejin
+      link: https://juejin.cn/user/2322582188592296
 
   # Copyright years
   copyright:
