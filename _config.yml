@@ -125,7 +125,7 @@ theme_config:
 
   # The color scheme that should be used to highlight codeblocks.
   # See source/css/_highlight for a list of all available color schemes.
-  highlight: rainbow
+  highlight: school-book
 
   # Customize the overview with displaying a tagcloud on the index page.
   tags_overview: false
