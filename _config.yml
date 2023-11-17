@@ -5,12 +5,12 @@
 # Site
 title: YiSen's Blog
 subtitle: "YiSen's Blog"
-description: "I'm YiSen. Being engaged in web development since 2020.6 .
+description: "我是亦森，2020年6月毕业于中山大学南方学院，从事web开发已有3年。这是我掌握的[技能](/skill/)。
 \n  
 \n Tel: 15914203799"
 keywords: YiSen's Blog
 author: YiSen
-language: en
+language: zh-CN
 timezone: ""
 
 # URL
@@ -102,12 +102,32 @@ ignore:
 # theme: landscape
 theme: cactus
 theme_config:
-  language: zh-CN
+  # Customize the logo (i.e., the cactus) in the header.
+  # Options:
+  #   - enabled: whether to show (true) or hide (false) the logo.
+  #   - width: width of the logo in pixel units
+  #   - height: height of the logo in pixel units
+  #   - url: where the logo can be found
+  #   - gravatar: whether to use your Gravatar as the logo
+  #   - grayout: whether to enable a hover effect on the logo
+  logo:
+    enabled: true
+    width: 200
+    height: 200
+    url: /images/logo.png
+    gravatar: true
+    grayout: false
+
+  # Fill in you Gravatar email or hash if you want to use your gravatar as the
+  # logo and/or favicons of you website.
+  # To generate hash: `$ echo -n "name@email.com" | md5`.
+  gravatar:
+    email: 1402175410@qq.com
 
   projects_url: /projects/
 
   # Color scheme
-  colorscheme: dark
+  colorscheme: custom
 
   # The color scheme that should be used to highlight codeblocks.
   # See source/css/_highlight for a list of all available color schemes.
@@ -162,13 +182,7 @@ theme_config:
     end_year: 2023
 
   # Maximal width of the page in rem units.
-  page_width: 60
-
-  # Fill in you Gravatar email or hash if you want to use your gravatar as the
-  # logo and/or favicons of you website.
-  # To generate hash: `$ echo -n "name@email.com" | md5`.
-  gravatar:
-    email: 1402175410@qq.com
+  page_width: 40
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

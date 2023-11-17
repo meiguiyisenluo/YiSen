@@ -9,11 +9,13 @@
         <% if (!is_post()) { %>
           <%- partial('_partial/header') %>
         <% } %>
-        <%- body %>
-        <% if (is_post()) { %>
-          <%- partial('_partial/post/actions_mobile') %>
-        <% } %>
-        <%- partial('_partial/footer') %>
+        <div>
+          <%- body %>
+          <% if (is_post()) { %>
+            <%- partial('_partial/post/actions_mobile') %>
+          <% } %>
+          <%- partial('_partial/footer') %>
+        </div>
     </div>
     <%- partial('_partial/styles') %>
     <%- partial('_partial/scripts') %>

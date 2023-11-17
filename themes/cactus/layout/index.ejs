@@ -1,10 +1,7 @@
 <section id="about" class="p-note">
-  <% if (config.description) { %>
-    <%- markdown(config.description) %>
-  <% } %>
   <% if (theme.social_links) { %>
-    <p>
-      <%= __('index.find_me_on') %>
+    <p style="text-align: center;margin-bottom: 3rem;">
+      <!-- <%= __('index.find_me_on') %> -->
       <% var nb_links = theme.social_links.length %>
       <% var i = 0 %>
       <% for(var {label, icon, link} of theme.social_links) { %>
@@ -29,6 +26,10 @@
         <% i+=1 %>
       <% } %>
     </p>
+  <% } %>
+  
+  <% if (config.description) { %>
+    <%- markdown(config.description) %>
   <% } %>
 </section>
 
