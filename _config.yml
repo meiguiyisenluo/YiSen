@@ -114,7 +114,7 @@ theme_config:
     enabled: true
     width: 200
     height: 200
-    url: /images/logo.png
+    url: /images/logo2.png
     gravatar: false
     grayout: false
 
