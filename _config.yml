@@ -115,14 +115,8 @@ theme_config:
     width: 200
     height: 200
     url: /images/logo.png
-    gravatar: true
+    gravatar: false
     grayout: false
-
-  # Fill in you Gravatar email or hash if you want to use your gravatar as the
-  # logo and/or favicons of you website.
-  # To generate hash: `$ echo -n "name@email.com" | md5`.
-  gravatar:
-    email: 1402175410@qq.com
 
   projects_url: /projects/
 
