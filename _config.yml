@@ -178,6 +178,12 @@ theme_config:
   # Maximal width of the page in rem units.
   page_width: 40
 
+  # Reward
+  donate: true
+  reward_comment: 如果您读文章后有收获，可以打赏我喝咖啡哦～
+  wechatpay: /images/wechat.png
+  # alipay: /images/alipay.png
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
