@@ -181,7 +181,7 @@ theme_config:
 
   disqus:
     enabled: true
-    shortname: YiSen
+    shortname: yisen-1
 
   # Reward
   donate: true
