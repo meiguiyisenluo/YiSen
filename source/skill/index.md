@@ -21,16 +21,19 @@ date: 2023-11-16 18:28:02
 - http
 - websocket
 
+### 调试手段
+
+- 抓包：wireshark/fiddler/syp-debugger
+- VConsole/eruda
+- 浏览器调试工具，元素/控制台/网络/性能/源代码/应用程序/lighthouse
+- webpack sourcemap
+
 ### 前端
 
-- HTML
-- CSS
+- HTML/CSS
 - JavaScript
-- Vue
-- React
-- uniapp
-- 微信小程序
-- Electron
+- Vue/React
+- uniapp/微信小程序/Electron
 - NodeJS
 - Webpack
 
