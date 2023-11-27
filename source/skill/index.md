@@ -23,7 +23,7 @@ date: 2023-11-16 18:28:02
 
 ### 调试手段
 
-- 抓包：wireshark/fiddler/syp-debugger
+- 抓包：wireshark/Charles/syp-debugger/fiddler/Proxyman/Requestly/Reqable
 - VConsole/eruda
 - 浏览器调试工具，元素/控制台/网络/性能/源代码/应用程序/lighthouse
 - webpack sourcemap
