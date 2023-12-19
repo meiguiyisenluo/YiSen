@@ -8,10 +8,15 @@ tags:
 categories:
 - 经验分享
 ---
-
 ## 问题
-多个网络适配器之前有优先级问题。在使用抓包工具时会导致一些问题，抓包工具会使用优先级最高的网络适配器的ip进行代理。然后如果我们想要调试远程设备，就必须走wlan的网络，如果抓包工具默认代理到本地连接或者wsl其余的ip上，则会导致远程设备无法连接上抓包的代理服务。
+
+多个网络适配器之前有优先级问题。
+
+在使用抓包工具时会导致一些问题，抓包工具会使用优先级最高的网络适配器的ip进行代理。
+
+然后如果我们想要调试远程设备，就必须走wlan的网络，如果抓包工具默认代理到本地连接或者wsl其余的ip上，则会导致远程设备无法连接上抓包的代理服务。
 
 ## 解决
+
 更改网络适配器的优先级，如下图跃点，数值越小，优先级越高。
-![image.png](https://private-user-images.githubusercontent.com/52649954/291507956-03cb657f-4fc6-46b2-b377-53a335744b57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI5NzE2OTksIm5iZiI6MTcwMjk3MTM5OSwicGF0aCI6Ii81MjY0OTk1NC8yOTE1MDc5NTYtMDNjYjY1N2YtNGZjNi00NmIyLWIzNzctNTNhMzM1NzQ0YjU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjE5VDA3MzYzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjNzMyNTk5MDVmYzM0YjI4NTFlYjI5NjBmZWVjOGIxY2MyNTQ1NjJjNzM2MTRjMTAzZWU4N2FlOWUwMzI0ZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.OavMRFD0DXbttQFnF0bxyuJOh-MRE-oWoAaMPMk9gNg)
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/90e322384eb34c27a86e77638481d276~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2879\&h=1799\&s=375887\&e=png\&b=f6f6f6)
