@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   hexo:
-    specifier: ^7.0.0
-    version: 7.0.0
+    specifier: ^7.1.0
+    version: 7.1.0
   hexo-generator-archive:
     specifier: ^2.0.0
     version: 2.0.0
@@ -17,6 +17,9 @@ dependencies:
   hexo-generator-index:
     specifier: ^3.0.0
     version: 3.0.0
+  hexo-generator-search:
+    specifier: ^2.4.3
+    version: 2.4.3
   hexo-generator-tag:
     specifier: ^2.0.0
     version: 2.0.0
@@ -645,6 +648,16 @@ packages:
       hexo-pagination: 3.0.0
     dev: false
 
+  /hexo-generator-search@2.4.3:
+    resolution: {integrity: sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==}
+    engines: {node: '>= 0.10.0'}
+    dependencies:
+      nunjucks: 3.2.4
+      utils-merge: 1.0.1
+    transitivePeerDependencies:
+      - chokidar
+    dev: false
+
   /hexo-generator-tag@2.0.0:
     resolution: {integrity: sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw==}
     engines: {node: '>=14'}
@@ -751,8 +764,8 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
-  /hexo@7.0.0:
-    resolution: {integrity: sha512-3iRSYReDcYd+bdCrDYS53aFjR717M+eSwKVXdM1tF2QETi8urcwDdDDoD7Nm2E0trqN4oeoHJ7FoXbn2UsZxqw==}
+  /hexo@7.1.0:
+    resolution: {integrity: sha512-FFjo8NwqSQVxASSKFGkFUak720sFC/p3IxkDIOHLXQ1axQ5w4ipFU0DNqDzwyb5EJOMFYuMxFcurhm9olQP13A==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
