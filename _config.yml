@@ -174,7 +174,7 @@ theme_config:
   # Copyright years
   copyright:
     start_year: 2016
-    end_year: 2023
+    end_year: 2024
 
   # Maximal width of the page in rem units.
   page_width: 40
