@@ -46,4 +46,4 @@ mv build /var/www/html/xxx
 ## 最后
 体验过后依旧存在问题，想把express服务用docker跑，但是express exec执行宿主机的shell脚本有点麻烦。
 
-目前已经换为使用Jenkins。
+目前已改为使用Jenkins。
