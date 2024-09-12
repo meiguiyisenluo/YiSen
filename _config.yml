@@ -184,7 +184,7 @@ theme_config:
     shortname: yisen-1
 
   # Reward
-  donate: true
+  donate: false
   reward_comment: 如果您读文章后有收获，可以打赏我喝咖啡哦～
   wechatpay: /images/wechat.png
   # alipay: /images/alipay.png
